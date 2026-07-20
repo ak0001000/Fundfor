@@ -4,7 +4,7 @@
 [![Soroban SDK](https://img.shields.io/badge/Soroban-27.0.0-blue?style=flat-square&logo=stellar)](https://soroban.stellar.org)
 [![Stellar Testnet](https://img.shields.io/badge/Network-Testnet-success?style=flat-square)](https://stellar.expert/explorer/testnet)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![CI/CD Pipeline](https://img.shields.io/github/actions/workflow/status/ak0001076-collab/FundLopp/ci.yml?branch=main&label=Build%20Status&style=flat-square)](https://github.com/ak0001076-collab/FundLopp/actions)
+[![CI/CD Pipeline](https://img.shields.io/github/actions/workflow/status/ak0001000/Fundfor/ci.yml?branch=main&label=Build%20Status&style=flat-square)](https://github.com/ak0001000/Fundfor/actions)
 
 ---
 
@@ -167,7 +167,7 @@ The project includes an automated deployment script that compiles the WASM, uplo
 
 ## Live Demo & Transaction Proof
 
-* **Live Frontend Demo**: [https://fund-lopp.vercel.app/](https://fund-lopp.vercel.app/)
+* **Live Frontend Demo**: [https://fundfor.vercel.app/](https://fundfor.vercel.app/)
 * **Factory Contract on StellarExpert**: [View Factory Details](https://stellar.expert/explorer/testnet/contract/CCWH7RZKQLSZTQ4EDJA677UOXGAHMCAHRUX2BQMDNV4WSLB3DIYYDDYT)
 * **Latest Campaign on StellarExpert**: [View Campaign Details](https://stellar.expert/explorer/testnet/contract/CD54KEP26LOSHJPKW2ZEMOK4QXVONZLRKS4WOQO3LDJNVQOB7Q3FHCJM)
 
@@ -218,22 +218,26 @@ FundLoop uses GitHub Actions for continuous integration. The `.github/workflows/
 
 ## Screenshots
 
-<details>
+<details open>
 <summary><b>View Project Screenshots</b></summary>
 <br>
 
-### mobile View Dashboard 
-![alt text](image.png)
-*(Screenshot of the responsive glassmorphic dashboard viewed on mobile)*
+### Mobile View Dashboard
+<img src="image.png" alt="Mobile View Dashboard" width="100%" />
+<p><i>(Screenshot of the responsive glassmorphic dashboard viewed on mobile)</i></p>
 
+<br>
 
-### CI/CD Pipeline workflow
-![alt text](image-1.png)
-*(Screenshot of a green GitHub Actions pipeline run)*
+### CI/CD Pipeline Workflow
+<img src="image-1.png" alt="CI/CD Pipeline Workflow" width="100%" />
+<p><i>(Screenshot of GitHub Actions CI/CD pipeline run)</i></p>
 
-### Test pass Output 
-![alt text](image-2.png)
-*(Terminal output showing passing Cargo tests)*
+<br>
+
+### Test Pass Output
+<img src="image-2.png" alt="Test Pass Output" width="100%" />
+<p><i>(Terminal output showing passing Cargo tests)</i></p>
+
 </details>
 
 ## Demo Video
